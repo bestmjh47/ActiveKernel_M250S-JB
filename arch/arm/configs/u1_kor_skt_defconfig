@@ -1,5 +1,5 @@
  make config: don't edit
-# Linux/arm 3.0.15 Kernel Configuration
+# Linux/arm 3.0.31 Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_HAVE_PWM=y
@@ -93,7 +93,7 @@ CONFIG_RT_GROUP_SCHED=y
 # CONFIG_SYSFS_DEPRECATED is not set
 # CONFIG_RELAY is not set
 CONFIG_BLK_DEV_INITRD=y
-CONFIG_INITRAMFS_SOURCE=""
+CONFIG_INITRAMFS_SOURCE="/home/moon/kernel/s2/ramdisk/"
 CONFIG_RD_GZIP=y
 # CONFIG_RD_BZIP2 is not set
 # CONFIG_RD_LZMA is not set
